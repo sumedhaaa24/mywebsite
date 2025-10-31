@@ -1,2 +1,111 @@
 # mywebsite
 this is a basic website using html.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        
+            <tr>
+            <th rowspan="6">info</th>
+            <th rowspan="2">name</th>
+            <th colspan="2">address</th>
+
+            </tr>
+        <tr>
+        <th>city</th>
+        <th>house</th>
+        </tr>
+         <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+            
+    </table>
+<hr>
+<form>
+    Name:
+    <input type="text">
+    <br>
+    Sex:
+    <input type="radio" name="sex" id="male">
+    <label for="sex">Male</label>
+    <input type="radio" name="sex" id="female">
+    <label for="sex">Female</label>
+    <div>
+        Country:
+        <select name="country" id="country">
+            <option>select an option</option>
+            <option value="ind">India</option>
+            <option value="usa">USA</option>
+            <option value="rus">Russia</option>
+        </select>
+    </div>
+
+    Message:
+    <br>
+    <textarea id="message"></textarea>
+    <br>
+    <input type="checkbox">
+    <label>Subscribe?</label>
+<br>
+<button>Submit</button>
+</form>
+<HR>
+    <form>
+        <h3 style="color: rgb(70, 16, 121);">Feedback Form</h3>
+        <label>
+        Name:
+        <input type="text" placeholder="write your name"><br>
+        </label>
+        <label>
+        Email:
+        <input type="text" placeholder="write your email"><br>
+        </label>
+        Message:
+        <br>
+        <textarea id="message"></textarea>
+        <br>
+        Rate us out of 5:
+        <br>
+        <input type="checkbox" name="rate" id="1">
+        <label for="rate">1</label>
+        <br>
+        <input type="checkbox" name="rate" id="2">
+        <label for="rate">2</label>
+<br>
+        <input type="checkbox" name="rate" id="3">
+        <label for="rate">3</label>
+<br>
+        <input type="checkbox" name="rate" id="4">
+        <label for="rate">4</label>
+<br>
+        <input type="checkbox" name="rate" id="5">
+        <label for="rate">5</label>
+<br>
+<button>Send your message!</button>
+    </form>
+    
+</body>
+</html>
